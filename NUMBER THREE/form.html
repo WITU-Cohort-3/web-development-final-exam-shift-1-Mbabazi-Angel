@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1><b>Survey Form</b></h1>
+    <p>Let us know how we can improve WITU</p>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" value="Enter your name"><br><br>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" value="Enter your Email"><br><br>
+        <label for="age">Age</label>
+        <input type="text" id="age" name="age" value="Age"><br><br>
+        <label for="role">Which option best describes your current role?</label>
+        <select id="role" name="role">
+        <option value="student">Student</option>
+        <option value="Lecturer">Lecturer</option>
+        </select><br><br>
+        <text>How likely are you to recommend WITU to a friend?</text>
+        <input type="radio" id="Definitely" name="choice" value="A">
+        <label for="Definitely">Definitely</label><br>
+        <input type="radio" id="maybe" name="choice" value="B">
+        <label for="Maybe">Maybe</label><br><br>
+        <input type="radio" id="Not sure" name="choice" value="C">
+        <label for="Not sure">Not sure</label><br><br>
+        <label for="like">What do you like most in WITU</label>  
+        <select id="like" name="like">
+            <option value="Select an otion">Select an option</option>
+        </select><br><br>
+        <text>Things that should be improved in the future</text>
+        <text>(check all that apply)</text>
+        <input type="checkbox" id="front-end projects" name="choice" value="front-end projects">
+        <label for="front-end projects">Front-end Projects</label><br><br>
+        <input type="checkbox" id="back-end projects" name="choice" value="back-end projects">
+        <label for="back-end projects">Back-end Projects</label><br><br>
+        <input type="checkbox" id="Data Visualisation" name="choice" value="Data Visualisation">
+        <label for="Data Visualisation">Data Visualisation</label><br><br>
+    </form>
+</body>
+</html>
